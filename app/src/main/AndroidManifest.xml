@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PizzaRecipets">
         <activity
+            android:name=".PizzaRecipeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PizzsRecipe"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
